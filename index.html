@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Főoldal | Magyar Szablyavívó Iskola Szarvas - vitéz Tersztyánszky Ödön emlékére</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="20">
+  <header class="titlebg">
+    <h1 class="mainTitle">Magyar Szablyavívó Iskola Szarvas - vitéz Tersztyánszky Ödön emlékére</h1>
+  </header>
+  <nav class="navbar navbar-expand-lg topnav sticky-top">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">Iskolánkról <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#masters">Mestereink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#training">Edzések</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Elérhetőségek</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+  </script>
+  <div class="container-fluid bg1" id="about">
+    <h2 class="articleTitle">Iskolánk története</h2>
+    <p class="main-text">A Magyar Szablyavívó Iskolát 2012-ben alapította Máday Norbert. Iskolánk célja a Borsody
+      László
+      vívómester által megalkotott Borsody vívórendszer, a hagyományos magyar szablyavívás tradíciójának ápolása. Az
+      Iskola mestereinek megfeszített munkájának hála a klasszikus magyar szablyavívás bekerült a Hungarikumok közé
+      2020. májusában.</p>
+    <p class="main-text">A szarvasi tagiskola 2019. szeptember 10-én alakult meg, Máday Norbert és Gombár Zsolt
+      kezdeményezésére. Iskolaalapító bemutatónkon Trényi Péter békéscsabai vívómester, Strifler Hédi és Sápi Martin
+      segédkezett. Azóta iskolánk néhány fős stabil csapattal rendszeresen tréningezik és fejlődik.</p>
+  </div>
+  <div class="container-fluid bg2" id="masters">
+    <h2 class="articleTitle">Mestereink</h2>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-2">
+        <img src="/img/borsody.jpg" class="rounded-circle" alt="Borsody" width="230px">
+        <h4 class="subTitle">Borsody László</h4>
+        <p class="main-text">A Borsody rendszer megalkotója. Farmoson született a XIX. század végén. Felderítőként
+          szolgált az első világháborúban. A Magyar Athletikai
+          Club (MAC) és a Magyar Királyi Sportoktató Tanfolyam (később Magyar Királyi Toldi Miklós Honvéd Sporttanár- és
+          Vívómesterképző Intézet - SPOTI) vívómestere, majd fővívómestere lett. 1939-es öngyilkossága után Szűts János
+          vette
+          át
+          posztját a SPOTI-ban. </p>
+      </div>
+      <div class="col-sm-2">
+        <img src="/img/szuts.jpg" class="rounded-circle" alt="Szűts" width="230px">
+        <h4 class="subTitle">Szűts János</h4>
+        <p class="main-text">Mosonmagyaróváron született 1904-ben. Borsody öngyilkossága után a SPOTI kardvívómestere
+          lett.
+          A második világháború után mindenét elveszítette. A Katonai Testnevelési Főiskola, a Vörös Meteor, majd a
+          Honvéd
+          vívómestere lett. Híres tanítványa az olimpiai bajnok Pézsa Tibor, aki befogadja mesterét, miután
+          Parkinson-kór
+          támadta meg. 1976-ban hunyt el, Pézsának köszönhetően teljes katonai tiszteletadás mellett temették el. </p>
+      </div>
+      <div class="col-sm-2">
+        <img src="/img/pezsa.jpg" class="rounded-circle" alt="Szűts" width="230px">
+        <h4 class="subTitle">Pézsa Tibor</h4>
+        <p class="main-text">Esztergomban született 1935-ben. Esztergomban kezdett vívni, majd a Honvédhoz került, itt
+          volt
+          mestere Szűts János. Az 1964-es tokiói olimpia egyéni kardversenyének aranyérmese, háromszoros olimpiai
+          bronzérmes, kétszeres világbajnok, hatszoros magyar bajnok kardvívó. 1973-ban kezdett edzősködni. Mesteredzői
+          oklevelét 1983-ban szerezte meg. Edzősködött a BHSE-nél, Németországban, Szaúd-Arábiában. A kardválogatott
+          volt
+          szakágvezetője, jelenleg az utánpótlással foglalkozó Pézsa Tibor Vívóakadémia vezetője és a női kardválogatott
+          irányítója. Tanítványa Máday Norbert.</p>
+      </div>
+      <div class="col-sm-2">
+        <img src="/img/maday.jpg" class="rounded-circle" alt="Szűts" width="230px">
+        <h4 class="subTitle">Máday Norbert</h4>
+        <p class="main-text">Kiskunhalason született, 1970-ben. A Magyar Szablyavívó Iskola alapítója és vezetője.
+          Borsody
+          László életének kutatója, több szakkönyv elismert szerzője. A szablyavívó mestereket rendszeres szakmai
+          képzésben részesíti, így biztosítja a Borsody-rendszer átadását.</p>
+      </div>
+      <div class="col-sm-2">
+        <img src="/img/tersztyanszky.jpg" class="rounded-circle" alt="Szűts" width="230px">
+        <h4 class="subTitle">vitéz Tersztyánszky Ödön</h4>
+        <p class="main-text">Iskolánk névadója 1890-ben született Csákvárott. Az első világháborúban hadifogságba esett,
+          jobb keze súlyosan megsebesült. Emiatt a háború után bal kézzel megtanult vívni. A MAC versenyzője, Kétszeres
+          olimpiai bajnok, olimpiai ezüst- és bronzérmes, katonai Európa-bajnok, tizennégyszeres magyar bajnok.
+          Tragikusan
+          fiatalon, 39 esztendősen, 1929-ben egy motorbalesetben vesztette életét.</p>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+    <div class="row">
+      <div class="col text-center">
+        <a href="http://magyarszablya.hu/galeria/album/mesterek_eletrajza/index.html" target="_blank">
+          <button class="btn btn-danger">Mesterek életrajza</button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg1" id="training">
+    <h2 class="articleTitle">Edzéseink</h2>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-4">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5455.9585760123455!2d20.552464!3d46.86378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4746a838b2fcebd7%3A0x7fc4b1a6a634b9da!2sSzarvas%2C%20Vas%C3%BAt%20u.%2067%2C%205540!5e0!3m2!1shu!2shu!4v1598825683346!5m2!1shu!2shu"
+        width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-4">
+        <p class="main-text"> <strong>Edzéseink ideje: </strong> <br> Kedd, csütörtök 16:30 - 17:30</p>
+        <p class="main-text"> <strong>Edzések helye: </strong> <br>
+          Szirén Mozgás Stúdió <br>
+          <i>5540 Szarvas <br>
+            Vasút u. 67. (1-es kapucsengő)</i></p>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </div>
+  <div class="container-fluid bg2" id="contact">
+    <h2 class="articleTitle">Elérhetőségeink:</h2>
+    <p class="main-text"><strong>Oktató:</strong> Gombár Zsolt, 1. vívómesteri fokozat <br>
+      <strong>Telefon:</strong> +36302143235 <br>
+      <a href="https://www.facebook.com/mszablyaszarvas/" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://twitter.com/szablyavivo" class="fa fa-twitter" target="_blank"></a>
+      <a href="https://www.instagram.com/mszablya.szarvas/" class="fa fa-instagram" target="_blank"></a>
+      <a href="https://www.youtube.com/channel/UCSff2JdgdOpt1yoPlIiPwhA" class="fa fa-youtube" target="_blank"></a>
+    </p>
+  </div>
+</body>
+<footer class="container-fluid text-center footer-bg">
+  <p>Bootstrap Theme Made by <strong>Gombár Zsolt</strong></p>
+</footer>
+
+</html>
