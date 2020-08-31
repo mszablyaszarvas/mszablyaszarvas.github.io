@@ -30,10 +30,11 @@
   /* Backgrounds */
   
   .titlebg {
-      background-color: darkred;
-      color: white;
-      padding-top: 70px;
+      background-color: white;
+      color: black;
+      padding-top: 50px;
       padding-bottom: 70px;
+      text-align: center;
   }
 
   .bg1 {
@@ -47,7 +48,7 @@
   }
 
   .footer-bg {
-      background-color: rgb(0, 53, 0);
+      background-color: rgb(48, 48, 48);
       color:white;
   }
   
@@ -117,10 +118,16 @@
      font-size: 16px;
      text-align: left;
   }
-  .h5 {
-     font-family: 'Playfair Display', serif;
-     font-size: 14px;
-     text-align: center;
+  .quoteTitle {
+     font-family: 'Great Vibes', cursive;
+     font-size: 26px;
+     text-align: inherit;
+  }
+  
+  .quoteSource {
+     font-family: 'Great Vibes', cursive;
+     font-size: 18px;
+     text-align: inherit;
   }
 
   /* Paragraph styles */
