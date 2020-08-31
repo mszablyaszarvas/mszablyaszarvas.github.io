@@ -56,12 +56,43 @@
       padding-top: 35px;
       padding-bottom: 35px;
   }
+  .container-footer {
+      padding-top: 10px;
+      padding-bottom: 5px;
+  }
   
+  /* Format links */
+  
+  .inline-link:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .inline-link:visited {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .inline-link:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .inline-link:active {
+    color: maroon;
+    background-color: transparent;
+    text-decoration: underline;
+  } 
+
   /* Style all font awesome icons */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+  
+  .fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 70px;
     text-align: center;
     text-decoration: none;
   }
@@ -69,6 +100,7 @@
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
+    text-decoration: none;
   }
   
   /* Set a specific color for each brand */
@@ -107,6 +139,7 @@
      font-family: 'Playfair Display', serif;
      font-size: 24px;
      text-align: center;
+     margin-bottom: 48px;
   }
   .sectionTitle {
      font-family: 'Playfair Display', serif;
@@ -133,6 +166,22 @@
   /* Paragraph styles */
 .main-text {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     text-align: justify;
+}
+
+.footer-text {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+
+/* Align objects to center */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  width: 80%;
 }
