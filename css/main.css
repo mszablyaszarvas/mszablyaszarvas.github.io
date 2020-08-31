@@ -2,8 +2,7 @@
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: white;
-    overflow: hidden;
-  }
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -190,4 +189,16 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.fa-1x {
+  font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+}
+
+.dark-pink-text {
+  color: #AC003A;
 }
