@@ -1,17 +1,8 @@
 {
     "galleries": [
-        {
-            "id": 1,
-            "name": "Iskolaavató",
-            "photos": [
-                {
-                    "id": 1,
-                    "title": "Teszt",
-                    "leiras": "Ez egy tesztkép",
-                    "url": "//img/borsody.jpg",
-                    "galleriesID":"1"
-                }
+        {"id":"1", "name":"Iskolaavató", "photos": [
+            {"id":1, "title":"Teszt","leiras":"Ez egy tesztkép", "url":"//img/borsody.jpg"}
             ]
         }
-    ]
+    ], 
 }
