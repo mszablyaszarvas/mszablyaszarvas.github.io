@@ -1,0 +1,25 @@
+{
+  "name": "mszablyaszarvas.github.io",
+  "version": "1.0.0",
+  "description": "\"# mszablyaszarvas.github.io\"",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "express-generator": "^4.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mszablyaszarvas/mszablyaszarvas.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mszablyaszarvas/mszablyaszarvas.github.io/issues"
+  },
+  "homepage": "https://github.com/mszablyaszarvas/mszablyaszarvas.github.io#readme"
+}
