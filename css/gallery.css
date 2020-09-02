@@ -1,0 +1,42 @@
+.accordion {
+    background-color: #eeeeee;
+    color: #444444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    border: none;
+    transition: 0.9s;
+    font-size: 15px;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';  /* Unicode char for "plus" sign */
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    float: right;
+    margin-left: 5px;
+}
+
+.active::after {
+    content: "\2212"; /*Unicode char for "minus" sign */
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    float: right;
+    margin-left: 5px; 
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
