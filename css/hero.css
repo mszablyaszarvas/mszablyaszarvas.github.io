@@ -7,8 +7,8 @@
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/hero.jpg");
     height: 30%;
-    padding-top:350px;
-    padding-bottom:350px;
+    padding-top:400px;
+    padding-bottom:400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
